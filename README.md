@@ -1,2 +1,1 @@
-# shop-api-be
-nodejs
+# Assignment Schools
