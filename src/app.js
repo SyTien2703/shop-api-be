@@ -51,7 +51,7 @@ try {
     console.log("Không thể kết nối");
 }
 const dbConnection = mongoose.connection;
-dbConnection.on("error", (err) => console.log(`Kết nối thất bại ${err}`));
+dbConnection.on("error", (err) => console.log(`Kết nối đã thất bại ${err}`));
 dbConnection.once("open", () => console.log("Kết nối thành công đến DB!"));
 
 const PORT = 8080;
